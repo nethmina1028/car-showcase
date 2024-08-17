@@ -43,8 +43,8 @@ const SearchManufacturer = ({manufacturer,setManufacturer}:SearchManufacturerPro
             placeholder='Volkswagen...'
           />
 
-          {/* Transition for displaying the options */}
-          <Transition
+                {/* Transition for displaying the options */}
+                <Transition
             as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
             leave='transition ease-in duration-100'
             leaveFrom='opacity-100'
